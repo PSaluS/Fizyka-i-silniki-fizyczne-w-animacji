@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Fizyka i silniki fizyczne w animacji</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+    <div id="all">
+        <div id="root"></div>
+        <div id="interface">
+            <div class="menuraw">
+                Wysokość ramby
+                <input type='number' class='menufild' id='height' name='height' min='0' max='100' value='10'>
+            </div>
+            <div class="menuraw">
+                Kąt rampy
+                <input type='number' class='menufild' id='angle' name='angle' min='30' max='89' value='45'>
+            </div>
+            <div class="menuraw">
+                Masa obiektu
+                <input type='number' class='menufild' id='mass' name='mass' min='0.01' value='10'>
+            </div>
+            <div class="menuraw">
+                Współczynnik tarcia
+                <input type='number' class='menufild' id='frubb' name='frubb' min='0.01' value='0.5'>
+            </div>
+            <div class="menuraw">
+                Współczynnik grawitacji
+                <input type='number' class='menufild' id='gravity' name='gravity' min='0.01' value='9.81'>
+            </div>
+            <div class="menuRaw">
+                <button type='button' id='playButt'>Play</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

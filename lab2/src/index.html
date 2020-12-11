@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Fizyka i silniki fizyczne w animacji</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+    <div id="all">
+        <div id="root"></div>
+        <div id="interface">
+
+            <div class="menuRaw">
+                <div class="menuraw">
+                    Współczynnik grawitacji
+                    <input type='number' class='menufild' id='gravity' name='gravity' min='0.01' value='9.81'>
+                </div>
+                <div class="menuraw">
+                    Prędkość kątowa karuzeli [stopni/s]
+                    <input type='number' class='menufild' id='angleVel' name='angleVel' min='0.01' value='180'>
+                </div>
+                <div class="menuraw">
+                    Współczynnik tarcia statycznego
+                    <input type='number' class='menufild' id='tStatic' name='tStatic' min='0.01' value='0.8'>
+                </div>
+                <div class="menuraw">
+                    Współczynnik tarcia kinetycznego
+                    <input type='number' class='menufild' id='tKin' name='tKin' min='0.01' value='0.5'>
+                </div>
+                <div class="menuraw">
+                    Masa ciała 1 Czeronego [Kg]
+                    <input type='number' class='menufild' id='mass1' name='mass1' min='0.01' value='10'>
+                </div>
+                <div class="menuraw">
+                    odległość ciała 1 na karuzeli [m]
+                    <input type='number' class='menufild' id='r1' name='r1' min='0' value='5' step="1">
+                </div>
+                <div class="menuraw">
+                    Masa ciała 2 niebieskiego [Kg]
+                    <input type='number' class='menufild' id='mass2' name='mass2' min='0.01' value='5'>
+                </div>
+                <div class="menuraw">
+                    odległość ciała 2 na karuzeli [m]
+                    <input type='number' class='menufild' id='r2' name='r2' min='0' value='2' step="1">
+                </div>
+
+                <button type='button' id='playButt'>Play</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
