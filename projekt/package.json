@@ -1,0 +1,31 @@
+{
+  "name": "fisfwa_projekt",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack --mode=production"
+  },
+  "author": "Paweł Salus",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "stats.js": "^0.17.0",
+    "three": "^0.113.2",
+    "three-orbitcontrols": "^2.110.3"
+  },
+  "keywords": [
+    "WebGL",
+    "Three.js"
+  ],
+  "description": ""
+}

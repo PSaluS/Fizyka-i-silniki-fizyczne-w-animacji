@@ -23,7 +23,7 @@ const targetONMaterial = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
 const target = new THREE.Mesh(targetGeometry, targetOFFMaterial);
 
 const floorGeometry = new THREE.PlaneGeometry(100, 100);
-const floorMaterial = new THREE.MeshBasicMaterial({ color: 0x00aa00, wireframe: true });
+const floorMaterial = new THREE.MeshBasicMaterial({ color: 0x00aa00, wireframe: false });
 const floor = new THREE.Mesh(floorGeometry, floorMaterial);
 const stats = new Stats();
 
