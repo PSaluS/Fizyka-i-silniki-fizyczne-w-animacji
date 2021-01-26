@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Fizyka i silniki fizyczne w animacji</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+    <div id="all">
+        <div id="root"></div>
+        <div id="interface">
+            <div class="menuRaw">
+                <div class="menuraw">
+                    Współczynnik grawitacji
+                    <input type='number' class='menufild' id='gravity' name='gravity' min='0.01' value='9.81'>
+                </div>
+                <div class="menuraw">
+                    Współczynnik tarcia
+                    <input type='number' class='menufild' id='rubb' name='rubb' min='0.01' value='0.5'>
+                </div>
+                <div class="menuraw">
+                    Siła przekazana do pierwszego obiektu [N]
+                    <input type='number' class='menufild' id='force' name='force' min='1' value='100'>
+                </div>
+                <div class="menuraw">
+                    Masa pierwszego ciała (czerwony) [Kg]
+                    <input type='number' class='menufild' id='mass1' name='mass1' min='0.01' value='10'>
+                </div>
+                <div class="menuraw">
+                    Masa drugiego ciała (niebieski) [Kg]
+                    <input type='number' class='menufild' id='mass2' name='mass2' min='0.01' value='5'>
+                </div>
+                <div class="menuraw">
+                    Masa trzeciego ciała (zielony) [Kg]
+                    <input type='number' class='menufild' id='mass3' name='mass3' min='0.01' value='5'>
+                </div>
+                <div class="menuraw">
+                    Typ zderzenia
+                    <select id='collizion_type' name='collizion_type'>
+                        <option value='1'>Idealnie sprężyste</option>
+                        <option value='0'>Idealnie niesprężyste</option>
+                    </select>
+                </div>
+                <button type='button' id='playButt'>Play</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
