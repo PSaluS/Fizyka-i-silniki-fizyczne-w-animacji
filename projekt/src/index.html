@@ -13,6 +13,47 @@
         <div id="root"></div>
         <div id="interface">
             <div class="menuRaw">
+                <label for="G">G:</label>
+               <input type="number" id="G" name="G" value="">
+            </div>
+            <div class="menuRaw">
+                <label for='time'>Czas: </label>
+                <input type="number" id='time' name="time" value="">
+                <label for='time'>Dni na sekundę </label>
+            </div>
+            <div class="menuRaw">
+                <label for="model">Model</label>
+                <select name="model" id="model">
+                    <option value="1">Uproszczony</option>
+                    <option value="2">Pełny</option>
+                </select>
+            </div>
+            <div class="menuRaw">
+                <select id='planets'>
+                    <option value="0">Słońce</option>
+                    <option value="1">Merkury</option>
+                    <option value="2">Wenus</option>
+                    <option value="3">Ziemia</option>
+                    <option value="4">Mars</option>
+                    <option value="5">Jowisz</option>
+                    <option value="6">Saturn</option>
+                    <option value="7">Uran</option>
+                    <option value="8">Neptun</option>
+                </select>
+            </div>
+            <div class="menuRaw">
+                <label for="mass">Masa:</label>
+                <input type="number" id="mass" name="mass" value="">
+            </div>
+            <div class="menuRaw">
+                <label for="vel">Prędkość:</label>
+                <input type="number" id="vel" name="vel" value="">
+            </div>
+            <div class="menuRaw">
+                <label for="scale">Skala obiektu:</label>
+                <input type="number" id="scale" name="scale" value="">
+            </div>
+            <div class="menuRaw">
                 <button type='button' id='playButt'>Play</button>
             </div>
         </div>
