@@ -52,7 +52,6 @@ const newV = (v) => {
 function begin() {
 
     parametres.v1 = (parametres.force1 / parametres.mass1);
-    parametres.vv1 = 1;
 
     playAnim = true;
 }

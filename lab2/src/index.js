@@ -65,26 +65,20 @@ function animate() {
 
         if (F1_do >= F1_od) {
             box1.translateY((parametres.aV * parametres.R1) * parametres.time);
-            // console.log('tarcie statyczne');
 
         } else {
-            // box1.translateX(V1_wy * parametres.time);
             box1.translateY(((parametres.aV * parametres.R1) + V1_wy) * parametres.time);
             let newL = new THREE.Vector3(box1.position.x, 0, box1.position.z);
             parametres.R1 = newL.length();
-            // console.log(newL.length());
         }
 
         if (F2_do >= F2_od) {
             box2.translateY((parametres.aV * parametres.R2) * parametres.time);
-            // console.log('tarcie statyczne');
 
         } else {
-            // box1.translateX(V1_wy * parametres.time);
             box2.translateY(((parametres.aV * parametres.R2) + V2_wy) * parametres.time);
             let newL2 = new THREE.Vector3(box2.position.x, 0, box2.position.z);
             parametres.R2 = newL2.length();
-            // console.log(newL.length());
         }
 
         // box1.rotateOnWorldAxis(new THREE.Vector3(0, 1, 0), parametres.aV);

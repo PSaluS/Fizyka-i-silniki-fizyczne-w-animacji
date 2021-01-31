@@ -27,6 +27,7 @@ let F_rub_all;
 let rad;
 let moveVec;
 let velChange;
+
 const parametres = {
     angle: 45,
     height: 10,

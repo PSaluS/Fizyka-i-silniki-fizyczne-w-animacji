@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Fizyka i silniki fizyczne w animacji</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+    <div id="all">
+        <div id="root"></div>
+        <div id="interface">
+            <div class="menuRaw">
+                <div class="menuraw">
+                    Współczynnik grawitacji [m/s^2]
+                    <input type='number' class='menufild' id='g' name='g' min='0.01' value='9.81'>
+                </div>
+                <div class="menuraw">
+                    Gęstość [kg/m^3]
+                    <input type='number' class='menufild' id='p' name='p' min='0.01' value='1.225'>
+                </div>
+                <div class="menuraw">
+                    Czas symulacji [s]
+                    <input type='number' class='menufild' id='t' name='t' min='0.01' value='1'>
+                </div>
+                <div class="menuraw">
+                    Prędkość początkowa [m/s]
+                    <input type='number' class='menufild' id='v' name='v' min='0.01' value='100'>
+                </div>
+                <div class="menuraw">
+                    Masa szybowaca [kg]
+                    <input type='number' class='menufild' id='mass' name='mass' min='0.01' value='1315'>
+                </div>
+                <div class="menuraw">
+                    Kąt natarcia szkrzydeł [stopnie]
+                    <input type='number' class='menufild' id='alpha' name='alpha' min='0.01' value='10'>
+                </div>
+                <div class="menuraw">
+                    Powierzchnia szkrzydeł [m^2]
+                    <input type='number' class='menufild' id='sWing' name='sWing' min='0.01' value='11.2'>
+                </div>
+                <div class="menuraw">
+                    Współczynnik kształtu profilu szkrzydła
+                    <input type='number' class='menufild' id='m' name='m' min='0.01' value='0.3'>
+                </div>
+                <div class="menuraw">
+                    Powierznia rzutu natarcia ciała [m^2]
+                    <input type='number' class='menufild' id='sOb' name='sOb' min='0.01' value='3'>
+                </div>
+                <div class="menuraw">
+                    Współczynnik oporu kształtu ciała
+                    <input type='number' class='menufild' id='Cd' name='Cd' min='0.01' value='0.7'>
+                </div>
+                <button type='button' id='playButt'>Play</button>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="index.js"></script></body>
+
+</html>
