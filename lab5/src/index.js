@@ -3,6 +3,7 @@ import * as THREE from 'three';
 import OrbitControls from 'three-orbitcontrols';
 import Stats from 'stats.js';
 import { OBJLoader2 } from 'three/examples/jsm/loaders/OBJLoader2.js';
+import aerop from '../object/11804_Airplane_v2_l2.obj';
 // import aer1 from "../object/11804_Airplane_v2_l2.obj";
 
 const root = document.getElementById("root");
@@ -117,7 +118,7 @@ function init() {
     floor.translateZ(-6);
     floor.translateX(-5000);
 
-    aer = LoadOBJ('../object/11804_Airplane_v2_l2.obj');
+    aer = LoadOBJ(aerop);
     // aer = LoadOBJ(aer1);
     // console.log(aer1);
     // aer = aer1;
